@@ -27,7 +27,7 @@ function Header() {
       <Toolbar sx={{ justifyContent: 'space-between', py: 1 }}>
         <Box>
           <Typography variant="h5" fontWeight={700}>
-            Todo List Étudiant
+            Todo List
           </Typography>
           <Stack direction="row" spacing={1} mt={1}>
             <Chip label={`Total tâches: ${totalTasks}`} color="primary" variant="outlined" />
